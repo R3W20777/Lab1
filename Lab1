@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab1_Simonyan
+{
+    class Program
+    {
+        static void Main()
+        {
+            sbyte a = -10;
+            sbyte b;
+            b = Math.Abs(a); //находим абсолютное знач.
+            Console.WriteLine(b); //Выводим его на экран
+            sbyte a1 = -10;
+            sbyte b1 = 50;
+            sbyte c;
+            c = Math.Max(a1, b1); //Находми макс. знач. между переменами
+            Console.WriteLine(c);
+            double a3 = 25;
+            Console.WriteLine(Math.Sqrt(a3)); //Находим квадратный корень
+            double a4 = 10.5;
+            Console.WriteLine(Math.Truncate(a4));
+
+            int x = 180;
+            double g, pi;
+            pi = 3.14;
+            g = (x * 180) / pi;
+            Console.WriteLine(g);
+
+        }
+    }
+}
